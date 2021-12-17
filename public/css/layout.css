@@ -1,0 +1,72 @@
+.my-card-body {
+    height: calc(100vh - (55px + 48px));
+    background-color: black !important;
+}
+
+.my-card-body-post {
+    height: calc(30vh - (55px + 48px));
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    background-color: black !important;
+}
+
+.card-header {
+    color: white;
+    background-color: black !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 1) !important;
+}
+
+.menu {
+    text-align: center;
+    color: white;
+}
+
+.user-name,
+.user-name:hover,
+.content,
+.action > a {
+    color: white;
+}
+
+.action > a:hover {
+    color: #BBBBBB;
+}
+
+.menu:hover {
+    text-align: center;
+    color: white;
+}
+
+.action {
+    vertical-align: bottom;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+}
+
+.content-info {
+    min-height: calc(23vh - (55px + 48px));
+}
+
+.elipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tags {
+    width: 300px !important;
+}
+
+#app, #main {
+    background-color: black !important;
+}
+
+@media screen and (max-width:768px) {
+    .my-card-body {
+        height: auto;
+        max-height: 50vh;
+    }
+}
